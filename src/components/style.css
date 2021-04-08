@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap");
+
+* {
+  font-family: "Kanit", sans-serif;
+}
+.main-layout-container {
+  background-color: gainsboro;
+}
+/* .container {
+  background-color: rgb(201, 57, 86);
+  display: grid;
+  grid-gap: 1rem;
+  padding: 20px;
+
+  grid-template-columns: 1fr 1fr 0.1fr 1fr 1fr;
+  grid-template-rows: 0.05fr 700px 0.05fr 700px 100px 700px;
+  grid-template-areas:
+    "cont1 cont1 cont1 cont1 cont1"
+    "main1 main1 main1 main2 main2"
+    "cont2 cont2 cont2 cont2 cont2"
+    "main3 main3 main4 main4 main4"
+    "cont3 cont3 cont3 cont3 cont3"
+    "main5 main5 main5 main6 main6";
+} */
+.ui.divided.grid:not([class*="vertically divided"]) > .column:not(.row),
+.ui.divided.grid:not([class*="vertically divided"]) > .row > .column {
+  box-shadow: none;
+}
+.main1 {
+  background-color: cadetblue;
+  grid-column: 1/3;
+  grid-area: main1;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-around; */
+}
+.graph-comp {
+  height: 50%;
+}
+.bar-comp {
+  height: 50%;
+  /* position: relative; */
+}
+.sub-main1 {
+  background-color: darkgoldenrod;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.sub-main1 p {
+  background-color: darkgray;
+  flex: 1 1 150px;
+  margin: 10px;
+}
+.main2 {
+  background-color: rgb(103, 160, 95);
+  grid-column: 3/5;
+  grid-area: main2;
+}
+.main3 {
+  background-color: rgb(160, 137, 95);
+  grid-column: 1/2;
+  grid-area: main3;
+}
+.main4 {
+  background-color: rgb(95, 141, 160);
+  grid-column: 2/5;
+  grid-area: main4;
+}
+.cont-1 {
+  grid-column: 1/5;
+  grid-area: cont1;
+}
+.cont-2 {
+  grid-column: 1/5;
+  grid-area: cont2;
+}
+.cont-3 {
+  grid-column: 1/5;
+  grid-area: cont3;
+}
+.main5 {
+  background-color: rgb(160, 137, 95);
+  grid-column: 1/3;
+  grid-area: main5;
+}
+.main6 {
+  background-color: rgb(95, 141, 160);
+  grid-column: 3/5;
+  grid-area: main6;
+}
+.sign-container {
+  background-color: #ffffff;
+
+  align-self: center;
+  border-radius: 10px;
+}
+.ui.celled.grid {
+  box-shadow: none;
+}
+.ui.celled.grid > .row {
+  box-shadow: none;
+}
+.icon-male {
+  position: absolute;
+  top: -25px;
+  color: #72a7d8;
+}
+
+.grid-img {
+  position: relative;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+}
+.sign-amount {
+  display: flex !important;
+  justify-content: center;
+  padding: 8px 8px !important;
+}
+.sign-amount p {
+  margin: 0px 5px;
+
+  font-size: 1.5rem;
+}
+.sign-sex {
+  padding: 5px 20px !important;
+}
+.sign-sex p {
+  font-size: 1.5rem;
+}
+.bg-sign {
+  /* background-image: url("../../src/silk-pattern.png");
+  opacity: 0.5; */
+  /* display: flex; */
+
+  /* background-size: cover; */
+  background-repeat: repeat;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.text-amount {
+  color: rgb(78, 78, 78);
+}
+.text-unit {
+  color: rgb(110, 110, 110);
+}
+.sign-container .ui.celled.grid > .row > .column {
+  box-shadow: none;
+}
+@media only screen and (max-width: 600px) {
+  .icon-male {
+    font-size: 5rem !important;
+    top: -35px;
+  }
+  .sign-amount p {
+    font-size: 1rem;
+  }
+  .sign-sex p {
+    font-size: 1rem;
+  }
+  .container {
+    /* height: 100vh; */
+    /* width: 100vw; */
+    /* background-color: rgb(201, 57, 86);
+    display: grid;
+    grid-gap: 1rem;
+    padding: 20px; */
+    /* grid-template-columns: repeat(10, minmax(10px, 100px));
+    grid-template-rows: repeat(3, minmax(10px, 100px)); */
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.05fr 700px 700px 0.05fr 200px 200px 0.05fr 200px 200px;
+    grid-template-areas:
+      "cont1 cont1"
+      "main1 main1"
+      "main2 main2"
+      "cont2 cont2"
+      "main3 main3"
+      "main4 main4"
+      "cont3 cont3"
+      "main5 main5"
+      "main6 main6";
+  }
+}

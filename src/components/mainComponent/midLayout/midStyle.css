@@ -1,0 +1,14 @@
+.main-mid-left-container {
+  display: flex;
+  flex-direction: column;
+}
+.child-sign {
+  display: flex;
+  justify-content: space-between;
+}
+.child-sign-col {
+  margin: 5px;
+}
+.child-pie-col {
+  margin: 10px 0px;
+}

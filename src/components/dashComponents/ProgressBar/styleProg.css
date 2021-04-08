@@ -1,0 +1,50 @@
+.main-prog-container,
+.main-progOnce-container {
+  background-color: white;
+  border-radius: 10px;
+  padding: 15px 10px 0px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.main-progOnce-container {
+  /* margin: 15px 0px 0px; */
+}
+.main-prog-container {
+  /* margin: 0px 0px 10px; */
+}
+.progbar-container {
+  display: flex;
+  /* background-color: white; */
+  padding: 5px 5px 0px;
+  /* flex-direction: column; */
+  /* padding: 0px 10px 0px 0px; */
+  /* justify-content: center; */
+}
+.desc-bar {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: space-between;
+}
+.desc-bar p {
+  padding: 0px;
+  margin: 0px;
+}
+.header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: #1661a6;
+}
+.cont-progress {
+  margin-top: 5px;
+}
+.prog-top-bar {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+}
+.main-progOnce-container .ui.progress {
+  background: pink !important;
+}

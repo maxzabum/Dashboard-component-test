@@ -1,0 +1,5 @@
+.main-g1-left-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

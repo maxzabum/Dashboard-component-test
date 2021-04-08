@@ -1,0 +1,20 @@
+.tabu {
+  /* position: relative; */
+}
+.bar-container {
+  /* background-color: thistle; */
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+
+  /* padding: 0px 0px; */
+  /* margin-top: 10px; */
+  /* justify-content: center;
+  align-items: center; */
+
+  /* position: absolute; */
+}
+#sssd {
+  border-top-left-radius: 10px !important;
+  border-top-right-radius: 10px !important;
+}

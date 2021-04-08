@@ -1,0 +1,11 @@
+.main-g2-right-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.main-g2-left-container .child-g2-bot {
+  margin-top: 15px;
+}
+.main-g2-right-container .child-g2-col-top {
+  margin-top: 14px;
+}

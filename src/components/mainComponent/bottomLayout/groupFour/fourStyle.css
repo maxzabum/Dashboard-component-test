@@ -1,0 +1,16 @@
+.main-g4-left-container {
+  display: flex;
+  flex-direction: column;
+}
+.main-g4-left-container .child-g4-col {
+  display: flex;
+  /* flex-direction: column; */
+  /* display: flex; */
+  justify-content: space-between;
+}
+.main-g4-left-container .child-g4-col .child1 {
+  margin-right: 5px;
+}
+.main-g4-left-container .child-g4-col .child2 {
+  margin-left: 5px;
+}

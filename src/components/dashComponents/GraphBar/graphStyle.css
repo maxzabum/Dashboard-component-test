@@ -1,0 +1,59 @@
+.graph-container {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  /* padding: 10px; */
+}
+.left-graph {
+  background-color: #2e465b;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  justify-content: space-between;
+  flex: 1 0 auto;
+  padding: 0px 10px;
+}
+.left-graph p {
+  color: white;
+}
+.color-icon {
+  color: white;
+}
+.all-propulate {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.all-propulate p {
+  margin: 0px;
+}
+.propulate-head {
+  display: flex;
+  align-items: center;
+}
+.propulate-head > p {
+  font-size: 25px;
+  font-weight: 900;
+}
+.year-propulate {
+  display: flex;
+  justify-content: space-between;
+
+  width: 100%;
+}
+.year-propulate p {
+  margin: 5px 0px;
+}
+.right-graph {
+  flex: 10 1 200px;
+  position: relative;
+}
+#lineChart {
+  background-color: rgba(114, 167, 216, 1);
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  position: absolute;
+  /* width: 100%; */
+}
