@@ -1,4 +1,4 @@
-#Dashboard components
+# Dashboard components
 ![alt text](preview/preview1.png "")
 this project i build when i'm intern in One Geo Survey company. <br/>
 which library that i use to create dashboard is Chartjs and MaterialUI for responsive design<br/><br/>
